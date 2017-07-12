@@ -1,0 +1,73 @@
+/*!
+ * This file was written by Marian Sauter, marian.sauter@psy.lmu.de
+ * Copyright 2014
+ * Licensed under CC-BY-SA 4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+ */
+
+body
+{
+	margin-top:14px;
+	background-color: black;
+	font-size: 12pt;
+}
+
+.consent-form
+{
+	max-height:500px;
+	overflow: auto;
+	border: 1px solid grey;
+	border-radius: 5px;
+	font-size: 12pt;
+}
+
+#trial
+{
+	display: inline-block;
+	vertical-align: middle;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-size: 14pt;
+	height: 100%;
+	text-align: center;
+    margin: 0px 0px 0px 0px;
+	cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAFBhaW50Lk5FVCB2My41LjbQg61aAAAADUlEQVQYV2P4//8/IwAI/QL/+TZZdwAAAABJRU5ErkJggg=='), none !important;
+}
+
+#trialPanel
+{
+	background-color: black;
+	height: 100%;
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+
+#block-wait
+{
+	margin:auto;
+	background-color: black;
+	font-size: 18pt;
+}
+
+.relef {
+	position: relative;
+    float: left;
+}
+
+.row {
+    width: 100%;
+	float: left;
+	display: inline-block;
+}
+
+.box{
+
+
+    height: 8vh;
+    width: 8vh;
+	margin: 3vh;
+}
+
+.canvas{
+ position:absolute;  
+}

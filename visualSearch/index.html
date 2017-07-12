@@ -1,0 +1,23 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.min.css">
+
+<script type="text/javascript">
+
+function basicPopup(url) {
+		popupWindow = window.open(url,'popUpWindow','height=' + screen.availHeight + ',width=' +screen.availWidth+',\
+		left=0,top=0,resizable=no,scrollbars=yes,toolbar=no,\
+		menubar=no,location=no,directories=no,status=no');
+	}
+</script>
+</head>
+
+<body style="margin-top:20%;">
+
+<div class="container">
+	<h3 class="container">Online Visual Search 1</h3>
+	<button class="container btn btn-primary" onclick="basicPopup('Experiment.php');return false">Start Experiment in new window</button>
+</div>
+</body>
+</html>
